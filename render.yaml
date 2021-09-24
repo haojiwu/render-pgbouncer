@@ -1,5 +1,6 @@
 services:
 - type: pserv
+  healthCheckPath: /
   name: pgbouncer
   env: docker
   plan: standard
